@@ -1,0 +1,18 @@
+<div class="container">
+  <button mat-raised-button id="startButton" (click)="startGame()">Start Game</button>
+  <h1>
+    Name That Mode!
+  </h1>
+  <div>
+    <button mat-raised-button id="audioButton" (click)="playAudio()">Play Audio</button>
+  </div>
+  <div class="buttonContainer">
+    <button mat-raised-button (click)="checkAnswer(0)">Ionian</button>
+    <button mat-raised-button (click)="checkAnswer(1)">Dorian</button>
+    <button mat-raised-button (click)="checkAnswer(2)">Phrygian</button>
+    <button mat-raised-button (click)="checkAnswer(3)">Lydian</button>
+    <button mat-raised-button (click)="checkAnswer(4)">Mixolydian</button>
+    <button mat-raised-button (click)="checkAnswer(5)">Aeolian</button>
+    <button mat-raised-button (click)="checkAnswer(6)">Locrian</button>
+  </div>
+</div>
